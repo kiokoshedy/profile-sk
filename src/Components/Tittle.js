@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components';
 
-function Title({title, span}) {
+function Tittle({title, span}) {
     return (
         <TitleStyled>
             <h2>{title} <b><span>{span}</span></b></h2>

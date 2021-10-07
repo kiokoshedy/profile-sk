@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components';
 import {InnerLayout} from '../styles/Layouts';
-import Title from '../Components/Title';
+import Title from '../Components/Tittle';
 import ReviewItem from '../Components/ReviewItem';
 
 function ReviewsSetion() {

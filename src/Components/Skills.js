@@ -1,8 +1,8 @@
 import React from 'react'
 import styled from 'styled-components';
 import {InnerLayout} from '../styles/Layouts';
-import Title from '../Components/Title';
-import ProgressBar from './ProgressBar';
+import Title from '../Components/Tittle';
+import ProgressBar from './ProgressiveBar';
 
 function Skills() {
     return (
