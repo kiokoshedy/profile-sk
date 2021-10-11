@@ -63,7 +63,7 @@ function Resume() {
                         year={'2007 - 2010'} 
                         title={'KCSE'}
                         subTitle={'Makueni Boys High School'}
-                        text={'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa nihil impedit natus nostrum? Velit accusantium id quos, nihil vel quod.Quas, magni mollitia, aspernatur consequatur accusamus vero eum facere exercitationem velit suscipit ipsam placeat libero. '} 
+                        text={'Scored a B+ '} 
                     />
                 </div>
             </InnerLayout>

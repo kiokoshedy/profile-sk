@@ -22,7 +22,7 @@ const GlobalStyle = createGlobalStyle`
 
 }
 
-/* .light-theme{
+ .light-theme{
     --primary-color: #007bff;
     --primary-color-light: #057FFF;
     --secondary-color: #ff7675;
@@ -57,7 +57,7 @@ const GlobalStyle = createGlobalStyle`
     --scrollbar-bg-color: #383838;
     --scrollbar-thump-color: #6b6b6b;
     --scrollbar-track-color: #383838;
-} */
+} 
 
 *{
     margin: 0;
