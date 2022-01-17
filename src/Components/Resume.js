@@ -6,8 +6,18 @@ import SmallTitle from '../Components/SmallTitle';
 import BusinessCenterIcon from '@material-ui/icons/BusinessCenter';
 import SchoolIcon from '@material-ui/icons/School';
 import ResumeItem from '../Components/ResumeItem';
+import { saveAs } from 'file-saver';
+import { Document } from 'react-pdf'
 
 function Resume() {
+
+    const saveFile = () => {
+        saveAs(
+            "/src/img/portImages/Shadrack.pdf",
+            "Shadrack-Resume.pdf"
+        );
+    };
+
     const briefcase = <BusinessCenterIcon />
     const school = <SchoolIcon />
     return (
@@ -59,15 +69,11 @@ function Resume() {
                         subTitle={'Meru University'}
                         text={'Learned and started my passion in Software Development. '}
                     />
-                    <a href='\img\Shadrack Kioko - Resume.pdf' download>Dowload Resume</a>
+
                     <div>
-                        <a
-                            href="\img\Shadrack Kioko - Resume.pdf"
-                            download
-                        >
-                            Click to download
-                        </a>
+                        <button onClick={saveFile}>download</button>
                     </div>
+
                 </div>
             </InnerLayout>
         </ResumeStyled>
