@@ -6,7 +6,6 @@ import ServiceCard from '../Components/ServiceCard';
 import design from '../img/design.svg';
 import intelligence from '../img/intelligence.svg';
 import gamedev from '../img/game-dev.svg';
-import { DesktopMac } from '@material-ui/icons';
 
 function ServicesSection() {
     return (

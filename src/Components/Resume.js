@@ -7,7 +7,6 @@ import BusinessCenterIcon from '@material-ui/icons/BusinessCenter';
 import SchoolIcon from '@material-ui/icons/School';
 import ResumeItem from '../Components/ResumeItem';
 import { saveAs } from 'file-saver';
-import { Document } from 'react-pdf'
 
 function Resume() {
 
